@@ -1,5 +1,4 @@
-@-moz-document url-prefix('https://www.youtube.com/')
-{
+@-moz-document url-prefix('https://www.youtube.com/') {
 
 /* masthead */
 #search-form > #container
@@ -110,7 +109,7 @@ ytd-sentiment-bar-renderer, #like-bar
     height: 3px !important;
 }
 
-ytd-sentiment-bar-renderer
+ytd-sentiment-bar-renderer #container
 {
     background: rgb(198, 40, 40) !important;
 }
@@ -177,4 +176,5 @@ ytd-grid-video-renderer:hover ytd-thumbnail
     transform: translateY(-1px);
     z-index: 100;
 }
+
 }
